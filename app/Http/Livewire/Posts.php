@@ -12,6 +12,7 @@ class Posts extends Component
     public $testd = '';
     public $arr = [];
     public $limit;
+    
     public function render()
     {
         $this->counter = counter::select('count')->first()->count;
